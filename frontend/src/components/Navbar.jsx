@@ -138,7 +138,7 @@ token && userData ? (<div>
             />
 
             {/* Dropdown Menu */}
-            <div className="absolute top-full right-0 mt-2 text-base font-medium text-gray-600 min-w-48 bg-stone-100 rounded flex flex-col gap-4 p-4 opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity hidden group-hover:block z-10">
+            <div className="absolute top-full right-0 mt-0.2 text-base font-medium text-gray-600 min-w-48 bg-stone-100 rounded flex flex-col gap-5 p-5 opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity hidden group-hover:block z-10">
               <p
                 onClick={() => navigate('/my-profile')}
                 className="hover:text-black cursor-pointer"
