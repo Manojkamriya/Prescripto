@@ -16,9 +16,9 @@
       "src": "/api/(.*)",
       "dest": "/backend/index.js"
     },
-   {
-      "src": "/(.*)\\.(js|css|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2)",
-      "dest": "/frontend/dist/$1.$2"
+  {
+      "src": "/assets/(.*)",
+      "dest": "/frontend/dist/assets/$1"
     },
     {
       "src": "/(.*)",
