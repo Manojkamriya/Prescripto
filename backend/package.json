@@ -1,12 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-      "dev": "nodemon server.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+      "dev": "nodemon index.js",
     "build": "cd ../frontend && npm install && npm run build || echo 'Frontend not found!'"
   },
   "author": "",
